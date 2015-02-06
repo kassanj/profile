@@ -1,5 +1,13 @@
 require 'sinatra'
 
 get '/' do 
-    send_file("index.html")
+    File.new("./public/index.html").readlines
+end
+
+
+get '/Resume' do
+	File.open("./Resume.pdf", "rb") do |io|
+ 	reader = PDF::Reader.new(io)
+  	puts reader.info
+	end
 end
