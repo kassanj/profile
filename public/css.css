@@ -1,0 +1,100 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 18px 50px;
+  border-style:solid;
+  border-color:red;
+}
+
+style {
+  visibility: hidden;
+}
+
+
+header li {
+  display: inline;
+  list-style-type: none;
+}
+
+h1 {
+  font-size: 6em;
+  font-weight: bold;
+  font-family: Avenir;
+  text-align: left;
+  border-style:solid;
+  border-color:red;
+  padding-left: 42px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+h1:hover{
+  color:aquamarine; 
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h2, ul {
+  font-family: 'Cutive Mono';
+  text-align: left;
+  padding-left: 42px;
+}
+
+li.text {
+    padding-left: 42px;
+}
+
+ul  {
+    padding: 14px
+    border-style:solid;
+    border-color:aquamarine;
+    padding-left: 42px;
+}
+
+ul, a {
+    list-style-type: none;
+    text-decoration: none;
+    list-style:none;
+    padding-left:0;
+    display: inline;
+}
+
+img.portrait {
+  margin:80px 0px 0px 410px;
+  padding:14px;
+  position:absolute;
+  border-style:solid;
+  border-color:aquamarine;
+}
+
+img.floppy:hover, img.docx:hover, img.paint:hover, img.lisa:hover, img.linkendin:hover {
+  border-style:solid;
+  border-color:aquamarine;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: aquamarine;
+}
+
+footer a {    
+    color: black;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+footer {
+  padding-left: 42px;
+}
+
+
+
