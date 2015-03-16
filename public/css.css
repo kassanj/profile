@@ -47,7 +47,7 @@ li.text {
 }
 
 ul  {
-    padding: 14px
+    padding: 14px;
     border-style:solid;
     border-color:aquamarine;
     padding-left: 42px;
@@ -62,7 +62,7 @@ ul, a {
 }
 
 img.portrait {
-  margin:80px 0px 0px 410px;
+  margin:80px 0px 0px 520px;
   padding:14px;
   position:absolute;
   border-style:solid;
